@@ -36,7 +36,8 @@
 
 * **BaiduYun:** 
 ```
-link: 
+Baidu Download link: https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT 
+Passcode：AHUT 
 ```
 
 * **DropBox:**
