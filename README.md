@@ -32,7 +32,7 @@
 
 ## Test FLOPs, and Speed
 
-# :dvd: EventVOT Dataset 
+# :dvd: FELT_SOT Dataset 
 
 * **BaiduYun:** 
 ```
@@ -46,7 +46,7 @@ https://www.dropbox.com/scl/fo/0n5m12gt30drsha30hgth/h?rlkey=20mpz2oh1etbv8cnsav
 
 The directory should have the below format:
 ```Shell
-├── EventVOT dataset
+├── FELT_SOT dataset
     ├── Training Subset (841 videos, 180.7GB)
         ├── recording_2022-10-10_17-28-38
             ├── img
