@@ -47,27 +47,22 @@ https://www.dropbox.com/scl/fo/0n5m12gt30drsha30hgth/h?rlkey=20mpz2oh1etbv8cnsav
 The directory should have the below format:
 ```Shell
 ├── FELT_SOT dataset
-    ├── Training Subset (841 videos, 180.7GB)
-        ├── recording_2022-10-10_17-28-38
-            ├── img
-            ├── recording_2022-10-10_17-28-38.csv
+    ├── Training Subset (520 videos, 470.23GB)
+        ├── dvSave-2022_10_11_19_24_36
+            ├── dvSave-2022_10_11_19_24_36_aps
+            ├── dvSave-2022_10_11_19_24_36_dvs
+            ├── dvSave-2022_10_11_19_24_36.aedat4
             ├── groundtruth.txt
             ├── absent.txt
         ├── ... 
-    ├── Testing Subset (282 videos, 64.88GB)
-        ├── recording_2022-10-10_17-28-24
-            ├── img
-            ├── recording_2022-10-10_17-28-24.csv
+    ├── Testing Subset (222 videos, 194.93GB)
+        ├── dvSave-2022_10_11_19_43_03
+            ├── dvSave-2022_10_11_19_43_03_aps
+            ├── dvSave-2022_10_11_19_43_03_dvs
+            ├── dvSave-2022_10_11_19_43_03_dvs.aedat4
             ├── groundtruth.txt
             ├── absent.txt
         ├── ...
-    ├── validating Subset (18 videos, 4.34GB)
-        ├── recording_2022-10-10_17-31-07
-            ├── img
-            ├── recording_2022-10-10_17-31-07.csv
-            ├── groundtruth.txt
-            ├── absent.txt
-        ├── ... 
 ```
 
 # :triangular_ruler: Evaluation Toolkit
