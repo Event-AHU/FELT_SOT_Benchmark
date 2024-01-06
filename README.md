@@ -23,7 +23,20 @@
 # :collision: Update Log
 
 # :video_camera: Demo Video 
-The demo video for the FELT SOT dataset is available on [[Youtube](https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8)]. 
+* **The demo video for the FELT SOT dataset is available on** [[**Youtube**](https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8)]. 
+
+<p align="center">
+  <a href="https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8">
+    <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_demo_screenshot.png" alt="DemoVideo" width="700"/>
+  </a>
+</p>
+
+
+
+
+
+
+
 
 # :hammer: Environment
 
