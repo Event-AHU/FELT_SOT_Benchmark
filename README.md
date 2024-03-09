@@ -19,8 +19,14 @@
 
 
 # :dart: Abstract 
+Current event-/frame-event based trackers undergo evaluation on short-term tracking datasets, however, the tracking of real-world scenarios involves long-term tracking, and the performance of existing tracking algorithms in these scenarios remains unclear. In this paper, we first propose a new long-term and large-scale frame-event single object tracking dataset, termed FELT. It contains 742 videos and 1,594,474 RGB frames and event stream pairs and has become the largest frame-event tracking dataset to date. We re-train and evaluate 15 baseline trackers on our dataset for future works to compare. More importantly, we find that the RGB frames and event streams are naturally incomplete due to the influence of challenging factors and spatially sparse event flow. In response to this, we  propose a novel associative memory Transformer network as a unified backbone by introducing modern Hopfield layers into multi-head self-attention blocks to fuse both RGB and event data. Extensive experiments on both FELT and RGB-T tracking dataset LasHeR fully validated the effectiveness of our model. 
 
-# :collision: Update Log
+
+
+
+# :collision: Update Log 
+
+
 
 # :video_camera: Demo Video 
 * **The demo video for the FELT SOT dataset is available on** [[**Youtube**](https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8)]. 
@@ -40,13 +46,39 @@
 
 # :hammer: Environment
 
+
+
+
+
+
 ## Framework 
+<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/frameworkV2.jpg" alt="framework" width="700"/>
+
+
+
+
+
 
 ## Train & Test & Evaluation
 
+
+
+
+
+
+
+
+
+
 ## Test FLOPs, and Speed
 
+
+
+
+
 # :dvd: FELT_SOT Dataset 
+<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_samples.jpg" alt="felt_sot_samples" width="700"/>
+
 
 * **BaiduYun:** 
 ```
@@ -81,9 +113,21 @@ The directory should have the below format:
 
 # :triangular_ruler: Evaluation Toolkit
 
-# :chart_with_upwards_trend: Benchmark Results
 
-# :cupid: Acknowledgement
+
+
+
+
+# :chart_with_upwards_trend: Benchmark Results 
+<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/FELT_results.jpg" alt="framework" width="700"/>
+
+
+# :cupid: Acknowledgement 
+[[CEUTrack](https://github.com/Event-AHU/COESOT)] 
+[[VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark)] 
+[[FE108](https://github.com/Jee-King/ICCV2021_Event_Frame_Tracking)] 
+[[Awesome_Modern_Hopfield_Networks](https://github.com/Event-AHU/Awesome_Modern_Hopfield_Networks)] 
+[[OSTrack](https://github.com/botaoye/OSTrack)] 
 
 # :newspaper: Citation 
 ```bibtex
