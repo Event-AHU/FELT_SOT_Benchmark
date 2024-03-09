@@ -55,7 +55,23 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/frameworkV2.jpg" alt="framework" width="700"/>
 </p>
 
+Install env
+```
+conda create -n hdetrack python=3.8
+conda activate hdetrack
+bash install.sh
+```
 
+Run the following command to set paths for this project
+```
+python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
+```
+
+After running this command, you can also modify paths by editing these two files
+```
+lib/train/admin/local.py  # paths about training
+lib/test/evaluation/local.py  # paths about testing
+```
 
 
 
