@@ -133,6 +133,8 @@ The directory should have the below format:
 [[OSTrack](https://github.com/botaoye/OSTrack)] 
 
 # :newspaper: Citation 
+If you think this project is helpful, please feel free to leave a star ⭐️ and cite our paper:
+
 ```bibtex
 @article{wang2023feltsot,
   title={Event Camera based Long-term Visual Tracking: A Benchmark},
