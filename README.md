@@ -43,7 +43,6 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 
 
 
-
 # :hammer: Environment
 
 
@@ -52,8 +51,9 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 
 
 ## Framework 
+<p align="center">
 <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/frameworkV2.jpg" alt="framework" width="700"/>
-
+</p>
 
 
 
@@ -77,8 +77,10 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 
 
 # :dvd: FELT_SOT Dataset 
-<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_samples.jpg" alt="felt_sot_samples" width="700"/>
 
+<p align="center">
+<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_samples.jpg" alt="felt_sot_samples" width="700"/>
+</p>
 
 * **BaiduYun:** 
 ```
@@ -119,8 +121,9 @@ The directory should have the below format:
 
 
 # :chart_with_upwards_trend: Benchmark Results 
-<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/FELT_results.jpg" alt="framework" width="700"/>
-
+<p align="center">
+<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/FELT_results.jpg" alt="framework" width="900"/>
+</p>
 
 # :cupid: Acknowledgement 
 [[CEUTrack](https://github.com/Event-AHU/COESOT)] 
