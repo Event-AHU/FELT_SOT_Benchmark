@@ -77,7 +77,6 @@ Then, put the tracking datasets EventVOT in `./data`.
 
 Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1M1_CPXgH3PHr7MwXP-G5VQ?pwd=wsad) and put it under `$/pretrained_models`
 
-Download teacher pre-trained [CEUTrack_ep0050.pth](https://pan.baidu.com/s/1Z6jA6bnoY8sBSbRsxaEo4w?pwd=wsad) and put it under `$/pretrained_models`
 
 Download the trained model weights from [[HDETrack_S_ep0050.pth](https://pan.baidu.com/s/1GigDXtkSd9oE04dUM3W6Nw?pwd=wsad)] and put it under `$/output/checkpoints/train/hdetrack/hdetrack_eventvot` for test directly.
 
