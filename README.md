@@ -33,7 +33,7 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 
 <p align="center">
   <a href="https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8">
-    <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_demo_screenshot.png" alt="DemoVideo" width="700"/>
+    <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_demo_screenshot.png" alt="DemoVideo" width="800"/>
   </a>
 </p>
 
