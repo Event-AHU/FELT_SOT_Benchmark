@@ -9,13 +9,26 @@
 ------
 
 <p align="center">
-  • <a href="">arXiv</a> • 
-  <a href="">Baselines</a> •
-  <a href="">DemoVideo</a> • 
+  • <a href="https://arxiv.org/pdf/2403.05839.pdf">arXiv</a> • 
+  <a href="https://github.com/Event-AHU/FELT_SOT_Benchmark">Code</a> •
+  <a href="https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8">DemoVideo</a> • 
   <a href="">Tutorial</a> •
 </p>
 
 </div>
+
+> **Long-term Frame-Event Visual Tracking: Benchmark Dataset and Baseline**, Xiao Wang, Ju Huang, Shiao Wang, Chuanming Tang, Bo Jiang, Yonghong Tian, Jin Tang, Bin Luo, arXiv:2403.05839
+[[Paper](https://arxiv.org/pdf/2403.05839.pdf)] 
+[[Code](https://github.com/Event-AHU/FELT_SOT_Benchmark)] 
+[[DemoVideo](https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8)]  
+
+
+
+> **Event Stream-based Visual Object Tracking: A High-Resolution Benchmark Dataset and A Novel Baseline.** Xiao Wang, Shiao Wang, Chuanming Tang, Lin Zhu, Bo Jiang, Yonghong Tian, Jin Tang (2023). arXiv preprint arXiv:2309.14611.
+[[Paper](https://arxiv.org/abs/2309.14611)]
+[[Code](https://github.com/Event-AHU/EventVOT_Benchmark)]
+[[DemoVideo](https://youtu.be/FcwH7tkSXK0?si=GHOG7rfw4-GFd9dz)] 
+
 
 
 # :dart: Abstract 
@@ -163,11 +176,13 @@ The directory should have the below format:
 If you think this project is helpful, please feel free to leave a star ⭐️ and cite our paper:
 
 ```bibtex
-@article{wang2023feltsot,
-  title={Event Camera based Long-term Visual Tracking: A Benchmark},
-  author={},
-  journal={},
-  year={2023}
+@misc{wang2024FELTSOT,
+      title={Long-term Frame-Event Visual Tracking: Benchmark Dataset and Baseline}, 
+      author={Xiao Wang and Ju Huang and Shiao Wang and Chuanming Tang and Bo Jiang and Yonghong Tian and Jin Tang and Bin Luo},
+      year={2024},
+      eprint={2403.05839},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
