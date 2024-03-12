@@ -31,7 +31,8 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 
 # :collision: Update Log 
 
-* [2024.03.12] The FELT SOT dataset, baseline, benchmarked results, and evaluation toolkit are all released. 
+* [2024.03.12] The FELT SOT dataset, baseline, benchmarked results, and evaluation toolkit are all released.
+* [2024.03.09] Our arXiv paper is available at [[arXiv](https://arxiv.org/abs/2403.05839)]. 
 
 
 # :video_camera: Demo Video 
