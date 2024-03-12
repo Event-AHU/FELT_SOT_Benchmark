@@ -80,18 +80,17 @@ Download the trained model weights from [[AMTTrack_ep0050.pth](https://pan.baidu
 
 
 ## Train & Test & Evaluation
+```
+# train
+python tracking/train.py --script amttrack --config amttrack_felt --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0
 
-
-
-
-
-
-
-
+# test
+python tracking/test.py amttrack amttrack_felt --dataset felt --threads 1 --num_gpus 1
+```
 
 
 ## Test FLOPs, and Speed
-
+*Note:* The speeds reported in our paper were tested on a single RTX 3090 GPU.
 
 
 
@@ -135,7 +134,15 @@ The directory should have the below format:
 
 # :triangular_ruler: Evaluation Toolkit
 
-
+1. Download the EventVOT_eval_toolkit from [EventVOT_eval_toolki (Passcode：wsad)](https://pan.baidu.com/s/1rDsLIsNLxN6Gh9u-EdElyA?pwd=wsad), and open it with Matlab (over Matlab R2020).
+2. add your tracking results and [baseline results (Passcode：wsad)](https://pan.baidu.com/s/1xScOxwW_y2lzoXrYtJX-RA?pwd=wsad)  in `$/eventvot_tracking_results/` and modify the name in `$/utils/config_tracker.m`
+3. run `Evaluate_EventVOT_benchmark_SP_PR_only.m` for the overall performance evaluation, including SR, PR, NPR.
+4. run `plot_BOC.m` for BOC score evaluation and figure plot.
+5. run `plot_radar.m` for attributes radar figrue plot.
+6.  run `Evaluate_EventVOT_benchmark_attributes.m` for attributes analysis and figure saved in `$/res_fig/`. 
+<p align="center">
+  <img width=50%" src="./figures/BOC.png" alt="Radar"/><img width="50%" src="./figures/attributes.png" alt="Radar"/>
+</p>
 
 
 
