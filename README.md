@@ -141,7 +141,7 @@ The directory should have the below format:
 5. run `plot_radar.m` for attributes radar figrue plot.
 6.  run `Evaluate_EventVOT_benchmark_attributes.m` for attributes analysis and figure saved in `$/res_fig/`. 
 <p align="center">
-  <img width=50%" src="./figures/BOC.png" alt="Radar"/><img width="50%" src="./figures/attributes.png" alt="Radar"/>
+  <img width=50%" src="./figures/felt_BOC.png" alt="Radar"/><img width="50%" src="./figures/felt_radar.png" alt="Radar"/>
 </p>
 
 
