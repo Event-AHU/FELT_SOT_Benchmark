@@ -78,7 +78,7 @@ lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
 
-Then, put the tracking datasets EventVOT in `./data`. 
+Then, put the tracking datasets FELT in `./data`. 
 
 Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1JHLoV-ta10C0pi07-2Si7w?pwd=AHUT) and put it under `$/pretrained_models`
 
