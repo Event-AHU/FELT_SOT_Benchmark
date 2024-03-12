@@ -80,7 +80,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 Then, put the tracking datasets EventVOT in `./data`. 
 
-Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1M1_CPXgH3PHr7MwXP-G5VQ?pwd=wsad) and put it under `$/pretrained_models`
+Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1JHLoV-ta10C0pi07-2Si7w?pwd=AHUT) and put it under `$/pretrained_models`
 
 
 Download the trained model weights from [[AMTTrack_ep0050.pth](https://pan.baidu.com/s/1GigDXtkSd9oE04dUM3W6Nw?pwd=wsad)] and put it under `$/output/checkpoints/train/amttrack/amttrack_felt` for test directly.
