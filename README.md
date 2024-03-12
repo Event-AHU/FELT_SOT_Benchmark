@@ -38,7 +38,9 @@ Current event-/frame-event based trackers undergo evaluation on short-term track
 </p>
 
 
-
+<p align="center">
+  <img src="./figures/EventVOT_samples.jpg" alt="EventVOT_samples" width="800"/>
+</p>
 
 
 
