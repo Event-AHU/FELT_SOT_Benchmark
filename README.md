@@ -142,7 +142,7 @@ The directory should have the below format:
 # :triangular_ruler: Evaluation Toolkit
 
 
-1. Download the EventVOT_eval_toolkit from [FELT_eval_toolki (Passcode：AHUT)](https://pan.baidu.com/s/1jZkKQpwP-mSTMnZYO79Z9g?pwd=AHUT), and open it with Matlab (over Matlab R2020).
+1. Download the FELT_eval_toolkit from [FELT_eval_toolki (Passcode：AHUT)](https://pan.baidu.com/s/1jZkKQpwP-mSTMnZYO79Z9g?pwd=AHUT), and open it with Matlab (over Matlab R2020).
 2. add your tracking results and [baseline results (Passcode：AHUT)](https://pan.baidu.com/s/1bY3ozPUEevjHehmikipbcw?pwd=AHUT)  in `$/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`
 3. run `Evaluate_FELT_benchmark_SP_PR_only.m` for the overall performance evaluation, including SR, PR, NPR.
 4. run `plot_BOC.m` for BOC score evaluation and figure plot.
