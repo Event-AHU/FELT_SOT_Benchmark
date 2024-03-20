@@ -83,7 +83,7 @@ Then, put the tracking datasets FELT in `./data`.
 Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1JHLoV-ta10C0pi07-2Si7w?pwd=AHUT) and put it under `$/pretrained_models`
 
 
-Download the trained model weights from [[AMTTrack_ep0050.pth](https://pan.baidu.com/s/1DtENkd3HYPz00qaxxKMNuQ?pwd=AHUT) and put it under `$/output/checkpoints/train/amttrack/amttrack_felt` for test directly.
+Download the trained model weights from [AMTTrack_ep0050.pth](https://pan.baidu.com/s/1DtENkd3HYPz00qaxxKMNuQ?pwd=AHUT) and put it under `$/output/checkpoints/train/amttrack/amttrack_felt` for test directly.
 
 
 ## Train & Test & Evaluation
