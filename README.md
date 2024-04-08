@@ -80,12 +80,12 @@ lib/test/evaluation/local.py  # paths about testing
 
 Then, put the tracking datasets FELT in `./data`. 
 
-If you need the event voxel, please use the script [[event_to_voxel_felt.py](https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/event_to_voxel_felt.py)] to transform the event point for the voxel. 
-
 Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1JHLoV-ta10C0pi07-2Si7w?pwd=AHUT) and put it under `$/pretrained_models`
 
 
-Download the trained model weights from [AMTTrack_ep0050.pth](https://pan.baidu.com/s/1DtENkd3HYPz00qaxxKMNuQ?pwd=AHUT) and put it under `$/output/checkpoints/train/amttrack/amttrack_felt` for test directly.
+Download the trained model weights from [AMTTrack_ep0050.pth](https://pan.baidu.com/s/1DtENkd3HYPz00qaxxKMNuQ?pwd=AHUT) and put it under `$/output/checkpoints/train/amttrack/amttrack_felt` for test directly. 
+
+* **[Note]** If you need the event voxel, please use the script [[event_to_voxel_felt.py](https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/event_to_voxel_felt.py)] to transform the event point for the voxel. For the construction of baseline trackers (from RGB tracker to RGB-event tracker) to compare, in this benchmark, we fuse the RGB frame and event data using the script [[fusion_rgb_event_image.py](https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/fusion_rgb_event_image.py)]. Please check them for more detailed information.
 
 
 ## Train & Test & Evaluation
