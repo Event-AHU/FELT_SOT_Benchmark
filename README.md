@@ -170,7 +170,7 @@ The directory should have the below format:
 [[Awesome_Modern_Hopfield_Networks](https://github.com/Event-AHU/Awesome_Modern_Hopfield_Networks)] 
 [[OSTrack](https://github.com/botaoye/OSTrack)] 
 
-# :newspaper: Citation 
+/*# :newspaper: Citation 
 If you think this project is helpful, please feel free to leave a star ⭐️ and cite our paper:
 
 ```bibtex
@@ -182,7 +182,7 @@ If you think this project is helpful, please feel free to leave a star ⭐️ an
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-```
+```*/
 
 
 
