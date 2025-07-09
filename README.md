@@ -113,7 +113,7 @@ python tracking/test.py amttrack amttrack_felt --dataset felt --threads 1 --num_
 * **BaiduYun:** 
 ```
 FELT: https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT
-FELT V2：Coming soon...
+FELT V2：https://pan.baidu.com/s/1AiUTsvvsCKj8lWuc-821Eg?pwd=AHUT...
 ```
 
 * **DropBox:**
