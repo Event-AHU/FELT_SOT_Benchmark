@@ -17,7 +17,7 @@
 
 </div>
 
-> **Long-term Frame-Event Visual Tracking: Benchmark Dataset and Baseline**, Xiao Wang, Ju Huang, Shiao Wang, Chuanming Tang, Bo Jiang, Yonghong Tian, Jin Tang, Bin Luo, arXiv:2403.05839
+> **Long-Term Visual Object Tracking with Event Cameras: An Associative Memory Augmented Tracker and A Benchmark Dataset**, Xiao Wang, Xufeng Lou, Shiao Wang, Ju Huang, Lan Chen, Bo Jiang, arXiv:2403.05839
 [[Paper](https://arxiv.org/pdf/2403.05839.pdf)] 
 [[Code](https://github.com/Event-AHU/FELT_SOT_Benchmark)] 
 [[DemoVideo](https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8)]  
