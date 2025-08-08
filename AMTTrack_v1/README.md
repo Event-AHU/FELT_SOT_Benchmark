@@ -27,7 +27,7 @@ Current event-/frame-event based trackers undergo evaluation on shortterm tracki
 
 <p align="center">
   <a href="https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8">
-    <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/AMTTrack_v1/figures/felt_sot_demo_screenshot.png" alt="DemoVideo" width="800"/>
+    <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/felt_sot_demo_screenshot.png" alt="DemoVideo" width="800"/>
   </a>
 </p>
 

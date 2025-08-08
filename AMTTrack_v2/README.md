@@ -60,3 +60,26 @@ The directory should have the below format:
             ├── absent.txt
         ├── ...
 ```
+
+
+# :cupid: Acknowledgement 
+[[CEUTrack](https://github.com/Event-AHU/COESOT)] 
+[[VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark)] 
+[[FE108](https://github.com/Jee-King/ICCV2021_Event_Frame_Tracking)] 
+[[Awesome_Modern_Hopfield_Networks](https://github.com/Event-AHU/Awesome_Modern_Hopfield_Networks)] 
+[[OSTrack](https://github.com/botaoye/OSTrack)] 
+
+# :newspaper: Citation 
+If you think this project is helpful, please feel free to leave a star ⭐️ and cite our paper:
+
+```bibtex
+@misc{wang2025longtermvisualobjecttracking,
+      title={Long-Term Visual Object Tracking with Event Cameras: An Associative Memory Augmented Tracker and A Benchmark Dataset}, 
+      author={Xiao Wang and Xufeng Lou and Shiao Wang and Ju Huang and Lan Chen and Bo Jiang},
+      year={2025},
+      eprint={2403.05839},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2403.05839}, 
+}
+```
