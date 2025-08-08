@@ -84,20 +84,20 @@ python tracking/test.py amttrack amttrack_felt --dataset felt --threads 1 --num_
 # :dvd: FELT_SOT Dataset 
 
 <p align="center">
-<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/figures/AMTTrack_v1/felt_sot_samples.jpg" alt="felt_sot_samples" width="700"/>
+<img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/AMTTrack_v1/figures/felt_sot_samples.jpg" alt="felt_sot_samples" width="700"/>
 </p>
 
 * **BaiduYun:** 
 ```
 FELT: https://pan.baidu.com/s/12ur7n1wSDvIWajPQJMd8Kg?pwd=AHUT
-FELT V2：https://pan.baidu.com/s/1AiUTsvvsCKj8lWuc-821Eg?pwd=AHUT
 ```
+<!-- FELT V2：https://pan.baidu.com/s/1AiUTsvvsCKj8lWuc-821Eg?pwd=AHUT -->
 
 * **DropBox:**
 ```
 FELT: https://www.dropbox.com/scl/fo/0n5m12gt30drsha30hgth/h?rlkey=20mpz2oh1etbv8cnsav01bhj5&dl=0
-FELT V2：TO BE UPDATED 
 ```
+<!-- FELT V2：TO BE UPDATED  -->
 
 The directory should have the below format:
 ```Shell
