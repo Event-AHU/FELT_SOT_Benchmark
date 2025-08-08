@@ -49,8 +49,6 @@ The directory should have the below format:
         ├── dvSave-2022_10_11_19_24_36
             ├── dvSave-2022_10_11_19_24_36_aps
             ├── dvSave-2022_10_11_19_24_36_dvs
-            # ├── dvSave-2022_10_11_19_24_36_stack
-            # ├── dvSave-2022_10_11_19_24_36.aedat4
             ├── groundtruth.txt
             ├── absent.txt
         ├── ... 
@@ -58,8 +56,6 @@ The directory should have the below format:
         ├── dvSave-2022_10_11_19_43_03
             ├── dvSave-2022_10_11_19_43_03_aps
             ├── dvSave-2022_10_11_19_43_03_dvs
-            ├── dvSave-2022_10_11_19_43_03_stack
-            # ├── dvSave-2022_10_11_19_43_03.aedat4
             ├── groundtruth.txt
             ├── absent.txt
         ├── ...
