@@ -7,18 +7,19 @@
 **The First Frame-Event Long-Term Single Object Tracking Benchmark** 
 
 ------
-
+<!-- 
 <p align="center">
   • <a href="https://arxiv.org/abs/2403.05839">arXiv</a> • 
   <a href="https://github.com/Event-AHU/FELT_SOT_Benchmark">Code</a> •
   <a href="https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8">DemoVideo</a> • 
   <a href="">Tutorial</a> •
-</p>
+</p> -->
 
 </div>
 
 > **Long-Term Visual Object Tracking with Event Cameras: An Associative Memory Augmented Tracker and A Benchmark Dataset**, Xiao Wang, Xufeng Lou, Shiao Wang, Ju Huang, Lan Chen, Bo Jiang, arXiv:2403.05839
-[[Paper](https://arxiv.org/pdf/2403.05839.pdf)] 
+[[arXiv]](https://arxiv.org/abs/2403.05839)
+[[Paper](https://arxiv.org/pdf/2403.05839)] 
 [[Code](https://github.com/Event-AHU/FELT_SOT_Benchmark)] 
 [[DemoVideo](https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8)]  
 
