@@ -9,7 +9,7 @@
 ------
 
 <p align="center">
-  • <a href="https://arxiv.org/pdf/2403.05839.pdf">arXiv</a> • 
+  • <a href="https://arxiv.org/abs/2403.05839">arXiv</a> • 
   <a href="https://github.com/Event-AHU/FELT_SOT_Benchmark">Code</a> •
   <a href="https://youtu.be/6zxiBHTqOhE?si=6ARRGFdBLSxyp3G8">DemoVideo</a> • 
   <a href="">Tutorial</a> •
