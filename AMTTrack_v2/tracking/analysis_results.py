@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     """amttrack"""
     trackers.extend(trackerlist(name='amttrack', parameter_name=parameter_name, dataset_name=dataset_name,
-                                run_ids=None, display_name='AMTrack'))
+                                run_ids=None, display_name='AMTTrack'))
     
     dataset = get_dataset(dataset_name)
     print_results(trackers, dataset, dataset_name, merge_results=True, plot_types=('success', 'norm_prec', 'prec'))
