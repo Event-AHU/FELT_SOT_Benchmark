@@ -30,6 +30,41 @@ Existing event stream based trackers undergo evaluation on short-term tracking d
 <img src="https://github.com/Event-AHU/FELT_SOT_Benchmark/blob/main/AMTTrack_v2/figures/framework.jpg" alt="framework" width="700"/>
 </p>
 
+* **Install environment using conda**
+```
+conda create -n amttrack python=3.8
+conda activate amttrack
+bash install.sh
+```
+
+* **Run the following command to set paths for this project**
+```
+python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
+```
+
+* **After running this command, you can also modify paths by editing these two files**
+```
+lib/train/admin/local.py  # paths about training
+lib/test/evaluation/local.py  # paths about testing
+```
+
+* **Then, put the tracking datasets FELT in `./data`.**
+
+
+## Train & Test & Evaluation
+```
+# train
+python tracking/train.py --script amttrack --config amttrack_felt --save_dir ./output --mode single --use_wandb 0
+
+# test
+python tracking/test.py --tracker_name amttrack --tracker_param amttrack_felt --dataset_name felt --threads 1 --num_gpus 1
+```
+
+## Test FLOPs, and Speed
+*Note:* The speeds reported in our paper were tested on a single RTX 4090 GPU.
+
+
+# :dvd: FELT_SOT Dataset 
 
 * **BaiduYun:** 
 ```
