@@ -36,7 +36,7 @@ Existing event stream based trackers undergo evaluation on short-term tracking d
 [[OSTrack](https://github.com/botaoye/OSTrack)] 
 
 # :newspaper: Citation 
-If you think this project is helpful, please feel free to leave a star ⭐️ and cite our paper: 1
+If you think this project is helpful, please feel free to leave a star ⭐️ and cite our paper:
 
 ```bibtex
 @misc{wang2025longtermvisualobjecttracking,
