@@ -48,13 +48,13 @@ def create_default_local_file_ITP_train(workspace_dir, data_dir):
         # 'pretrained_networks': os.path.join(workspace_dir, 'pretrained_networks'),        
 
         'coesot_dir': os.path.join(data_dir, 'COESOT/train'),
-        'coesot_val_dir': os.path.join(data_dir, 'COESOT/test'),
+        'coesot_val_dir': os.path.join(data_dir, 'COESOT/train'),
         'fe108_dir':  os.path.join(data_dir, 'FE108/train'),
-        'fe108_val_dir': os.path.join(data_dir, 'FE108/test'),
+        'fe108_val_dir': os.path.join(data_dir, 'FE108/train'),
         'visevent_dir': os.path.join(data_dir, 'VisEvent/train'),
-        'visevent_val_dir':  os.path.join(data_dir, 'VisEvent/test'),
+        'visevent_val_dir':  os.path.join(data_dir, 'VisEvent/train'),
         'felt_dir': os.path.join(data_dir, 'FELT/train'),
-        'felt_val_dir':  os.path.join(data_dir, 'FELT/test'),
+        'felt_val_dir':  os.path.join(data_dir, 'FELT/train'),
     })
 
     comment = {'workspace_dir': 'Base directory for saving network checkpoints.',
