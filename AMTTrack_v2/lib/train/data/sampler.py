@@ -342,31 +342,3 @@ class TrackingSampler(torch.utils.data.Dataset):
 
         template_frame_ids = template_frame_id1 + template_frame_ids_extra
         return template_frame_ids, search_frame_ids
-
-    def get_frame_ids_ceatrack(self, visible, valid):
-        # Ensure visible and valid are tensors
-        visible = visible.bool()
-        valid = valid.bool()
-
-        # Get indices where both visible and valid are true
-        combined_ids = [i for i, (v, va) in enumerate(zip(visible, valid)) if v and va]
-
-        template_frame_ids_extra = []
-
-        while None in template_frame_ids_extra or len(template_frame_ids_extra) == 0:
-            # Sample the initial template and search IDs
-            template_frame_id0 = random.sample(combined_ids, 1)
-            search_frame_ids = random.sample(combined_ids, 1)
-
-            # Ensure no overlap
-            remaining_ids = [i for i in combined_ids if i not in template_frame_id0 and i not in search_frame_ids]
-
-            if len(remaining_ids) < self.num_template_frames-1:
-                template_frame_ids_extra += [None]
-                continue
-
-            # Sample the extra template frame IDs
-            template_frame_ids_extra = random.sample(remaining_ids, self.num_template_frames-1)
-
-        template_frame_ids = template_frame_id0 + template_frame_ids_extra
-        return template_frame_ids, search_frame_ids
