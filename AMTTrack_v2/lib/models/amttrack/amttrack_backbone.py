@@ -69,10 +69,10 @@ class AMTTrackBackBone(VisionTransformer):
             x = torch.cat([x[:, :lens_z, :], R_x_rgb, R_x_event], dim=1)
         return x
     
+
     def forward(self, static_zi, static_ze, dynamic_zi, dynamic_ze, xi, xe,
                 mask_z=None, mask_x=None, ce_template_mask=None, ce_keep_rate=None, 
                 return_last_attn=False):
-
         lens_z = static_zi.size(1) + static_ze.size(1) + dynamic_zi.size(1) + dynamic_ze.size(1)
         lens_x = xi.size(1) + xe.size(1)
         x = torch.cat((static_zi, static_ze, dynamic_zi, dynamic_ze, xi, xe), dim=1)

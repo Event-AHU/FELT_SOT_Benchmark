@@ -23,28 +23,23 @@ DATA:
     NUMBER: 3  
   TRAIN:
     DATASETS_NAME:
-    # - COESOT
-    # - FE108
-    # - FELT
-    - VisEvent
+    - COESOT
     DATASETS_RATIO:
     - 1
     SAMPLE_PER_EPOCH: 20000
   VAL:
     DATASETS_NAME:
-    # - COESOT_VAL
-    # - FE108_VAL
-    # - FELT_VAL
-    - VisEvent_VAL
+    - COESOT_VAL
     DATASETS_RATIO:
     - 1
     SAMPLE_PER_EPOCH: 10000
 MODEL:
-  PRETRAIN_PATH: ""
+  #############################
+  PRETRAIN_PATH: "./pretrained_networks"
   PRETRAIN_FILE: "mae_pretrain_vit_base.pth"
   # PRETRAIN_FILE: "OSTrack_ep0300.pth.tar"
-  EXTRA_MERGER: False
   #############################
+  EXTRA_MERGER: False
   BACKBONE:
     #############################
     TYPE: amttrack_vit_base_patch16_224 
@@ -73,7 +68,6 @@ TRAIN:
   #############################
   BATCH_SIZE: 12 
   #############################
-  # EPOCH: 100  
   EPOCH: 50  
   #############################
   GIOU_WEIGHT: 2.0     
@@ -81,8 +75,7 @@ TRAIN:
   FOCAL_WEIGHT: 1.0   
   LR: 0.0004
   #############################
-  # LR_DROP_EPOCH: 80  # epoch=100
-  LR_DROP_EPOCH: 40  # epoch=50
+  LR_DROP_EPOCH: 40
   #############################
   GRAD_CLIP_NORM: 0.1
   NUM_WORKER: 8
@@ -95,7 +88,8 @@ TRAIN:
   WEIGHT_DECAY: 0.0001
   AMP: False
 TEST:
-  EPOCH: 50  
+  # EPOCH: 50  
+  EPOCH: 1  
   SEARCH_FACTOR: 4.0
   SEARCH_SIZE: 256
   TEMPLATE_FACTOR: 2.0
@@ -104,8 +98,8 @@ TEST:
   SHORTTERM_LIBRARY_NUMS: 5 
   LONGTERM_LIBRARY_NUMS: 10 
   #############################
-  SAMPLE_INTERVAL: 4  
-  UPDATE_INTERVAL: 4
+  SAMPLE_INTERVAL: 10  
+  UPDATE_INTERVAL: 20 
   #############################
   LOWER_BOUND: 0.35 
   SCORE_THRESHOLD: 0.7

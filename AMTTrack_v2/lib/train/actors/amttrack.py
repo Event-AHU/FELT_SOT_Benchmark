@@ -8,7 +8,7 @@ from ...utils.ce_utils import generate_mask_cond, adjust_keep_rate, generate_mas
 
 
 class AMTTrackActor(BaseActor):
-    """ Actor for training CeaTrack models """
+    """ Actor for training AMTTrack models """
 
     def __init__(self, net, objective, loss_weight, settings, cfg=None):
         super().__init__(net, objective)

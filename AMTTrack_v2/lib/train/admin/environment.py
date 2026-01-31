@@ -23,11 +23,9 @@ def create_default_local_file():
 
     comment = {'workspace_dir': 'Base directory for saving network checkpoints.',
                'tensorboard_dir': 'Directory for tensorboard files.'}
-
     with open(path, 'w') as f:
         f.write('class EnvironmentSettings:\n')
         f.write('    def __init__(self):\n')
-
         for attr, attr_val in default_settings.items():
             comment_str = None
             if attr in comment:
@@ -45,8 +43,6 @@ def create_default_local_file_ITP_train(workspace_dir, data_dir):
     default_settings = OrderedDict({
         'workspace_dir': workspace_dir,
         'tensorboard_dir': os.path.join(workspace_dir, 'tensorboard'),    # Directory for tensorboard files.
-        # 'pretrained_networks': os.path.join(workspace_dir, 'pretrained_networks'),        
-
         'coesot_dir': os.path.join(data_dir, 'COESOT/train'),
         'coesot_val_dir': os.path.join(data_dir, 'COESOT/train'),
         'fe108_dir':  os.path.join(data_dir, 'FE108/train'),
@@ -56,14 +52,12 @@ def create_default_local_file_ITP_train(workspace_dir, data_dir):
         'felt_dir': os.path.join(data_dir, 'FELT/train'),
         'felt_val_dir':  os.path.join(data_dir, 'FELT/train'),
     })
-
     comment = {'workspace_dir': 'Base directory for saving network checkpoints.',
                'tensorboard_dir': 'Directory for tensorboard files.'}
 
     with open(path, 'w') as f:
         f.write('class EnvironmentSettings:\n')
         f.write('    def __init__(self):\n')
-
         for attr, attr_val in default_settings.items():
             comment_str = None
             if attr in comment:

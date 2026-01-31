@@ -1,6 +1,3 @@
-"""
-Basic ceatrack model.
-"""
 import os
 import torch
 from torch import nn
@@ -12,8 +9,6 @@ from lib.utils.box_ops import box_xyxy_to_cxcywh
 
 
 class AMTTrack(nn.Module):
-    """ This is the base class for ceutrack """
-
     def __init__(self, transformer, memory, box_head, aux_loss=False, head_type="CORNER"):
         """ Initializes the model.
         Parameters:

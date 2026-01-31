@@ -126,8 +126,6 @@ class TrackingSampler(torch.utils.data.Dataset):
                     template_frame_ids, search_frame_ids = self.get_frame_ids_trident(visible)
                 elif self.frame_sample_mode == "stark":
                     template_frame_ids, search_frame_ids = self.get_frame_ids_stark(visible, seq_info_dict["valid"])
-                elif self.frame_sample_mode == "ceatrack":
-                    template_frame_ids, search_frame_ids = self.get_frame_ids_ceatrack(visible, seq_info_dict["valid"])
                 else:
                     raise ValueError("Illegal frame sample mode")
             else:

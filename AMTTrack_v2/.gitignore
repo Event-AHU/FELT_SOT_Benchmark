@@ -180,18 +180,10 @@ Thumbs.db
 
 node_modules/
 
-/data/
-pretrained_networks/
-output/checkpoints/
-
 lib/train/admin/local.py
 lib/test/evaluation/local.py
+pretrained_networks/
 tensorboard/
-output/logs/
-output/test/
-models-finetune/
-
-train.sh
-test.sh
-
+output/
+log/
 tracking_sh/
