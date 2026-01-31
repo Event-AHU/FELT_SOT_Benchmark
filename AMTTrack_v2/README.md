@@ -93,6 +93,8 @@ python tracking/test.py --tracker_name amttrack --tracker_param felt --dataset_n
 2. add your tracking results in `$data/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`.
 3. run `Evaluate_FELT_benchmark_SP_PR_NPR.m` for the overall performance evaluation, including SR, PR, NPR. 
 Modify the value of the_type, where 1 corresponds to SR, 2 corresponds to PR, and 3 corresponds to NPR.
+4.  run `Evaluate_FELT_benchmark_attributes.m` for attributes analysis and figure saved in `$output/res_fig/`. 
+5. run `plot_radar.m` for attributes radar figrue plot.
 
 
 # :cupid: Acknowledgement 
