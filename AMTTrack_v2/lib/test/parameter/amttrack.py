@@ -23,7 +23,7 @@ def parameters(yaml_name: str):
 
     # Network checkpoint path
     # params.checkpoint = os.path.join(save_dir, "checkpoints/train/ceutrack/%s/CEUTrack_ep%04d.pth.tar" % (yaml_name, cfg.TEST.EPOCH))
-    params.checkpoint = os.path.join('/wangx/DATA/Code/louxufeng/My_Tracking/A_checkpoints/ceatrack/amttrack/', "checkpoints/train/amttrack/%s/AMTTrack_ep%04d.pth.tar" % (yaml_name, cfg.TEST.EPOCH))
+    # params.checkpoint = os.path.join('/wangx/DATA/Code/louxufeng/My_Tracking/A_checkpoints/ceatrack/amttrack/', "checkpoints/train/amttrack/%s/AMTTrack_ep%04d.pth.tar" % (yaml_name, cfg.TEST.EPOCH))
 
     # whether to save boxes from all queries
     params.save_all_boxes = False
