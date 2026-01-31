@@ -90,7 +90,7 @@ python tracking/test.py --tracker_name amttrack --tracker_param felt --dataset_n
 # Evaluation Toolkit
 
 1. Download the FELTv2_eval_toolkit from [[Baidu Drive]](https://pan.baidu.com/s/1AiUTsvvsCKj8lWuc-821Eg?pwd=AHUT), and open it with Matlab (over Matlab R2020).
-2. add your tracking results in `$data/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`
+2. add your tracking results in `$data/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`.
 3. run `Evaluate_FELT_benchmark_SP_PR_NPR.m` for the overall performance evaluation, including SR, PR, NPR. 
 Modify the value of the_type, where 1 corresponds to SR, 2 corresponds to PR, and 3 corresponds to NPR.
 
