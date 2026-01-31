@@ -74,7 +74,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 * Note: DropBox will be updated.
 
-# Train & Test
+# :checkered_flag: Train & Test
 
 ```
 # train
@@ -87,7 +87,7 @@ python tracking/test.py --tracker_name amttrack --tracker_param felt --dataset_n
 <!-- ## Test FLOPs, and Speed
 *Note:* The speeds reported in our paper were tested on a single RTX 2080Ti GPU. -->
 
-# Evaluation Toolkit
+# :triangular_ruler: Evaluation Toolkit
 
 1. Download the FELTv2_eval_toolkit from [[Baidu Drive]](https://pan.baidu.com/s/1AiUTsvvsCKj8lWuc-821Eg?pwd=AHUT), and open it with Matlab (over Matlab R2020).
 2. add your tracking results in `$data/felt_tracking_results/` and modify the name in `$/utils/config_tracker.m`.
