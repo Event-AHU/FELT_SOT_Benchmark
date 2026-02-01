@@ -22,7 +22,8 @@ Existing event stream based trackers undergo evaluation on short-term tracking d
 # :collision: Update Log 
 
 <!-- * [2026.01.31] The FELT SOT dataset, baseline, benchmarked results, and evaluation toolkit are all released. -->
-* [2026.01.31] The FELT SOT dataset, baseline, benchmarked results, and evaluation toolkit are all released.
+<!-- * [2026.02.01] The FELT SOT dataset, baseline, benchmarked results, and evaluation toolkit are all released. -->
+* [2026.02.01] The FELT SOT dataset and evaluation toolkit are all released.
 * [2025.08.06] Our arXiv paper is available at [[arXiv](https://arxiv.org/pdf/2403.05839v3)]. 
 
 
