@@ -1,5 +1,5 @@
 echo "****************** Installing pytorch ******************"
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+# conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 
 echo ""
 echo ""
@@ -19,7 +19,7 @@ pip install cython
 echo ""
 echo ""
 echo "****************** Installing opencv-python ******************"
-pip install opencv-python
+pip install opencv-python 
 
 echo ""
 echo ""
@@ -29,7 +29,7 @@ pip install pandas
 echo ""
 echo ""
 echo "****************** Installing tqdm ******************"
-conda install -y tqdm
+pip install tqdm
 
 echo ""
 echo ""
@@ -54,7 +54,7 @@ pip install tikzplotlib
 echo ""
 echo ""
 echo "****************** Installing thop tool for FLOPs and Params computing ******************"
-pip install thop-0.0.31.post2005241907
+pip install thop
 
 echo ""
 echo ""
@@ -92,12 +92,12 @@ pip install setuptools==59.5.0
 echo ""
 echo ""
 echo "****************** Installing wandb ******************"
-pip install wandb
+pip install "wandb<0.20"
 
 echo ""
 echo ""
 echo "****************** Installing timm ******************"
-pip install timm
+pip install timm 
 
 echo ""
 echo ""
